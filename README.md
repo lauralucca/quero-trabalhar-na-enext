@@ -1,22 +1,35 @@
 # Quero trabalhar na enext
 
-Então você chegou até aqui. Agora vamos avaliar o seu conhecimento técnico que com isso vamos conseguir entender melhor como você trabalha com versionamento, como você estrutura o seu código, então mostre o seu melhor.
+## Laura L de Lucca
 
-## A missão:
+LinkedIn: https://www.linkedin.com/in/lauraldelucca/
+GitHub: https://github.com/lauralucca
 
-Sua missão é criar a página abaixo:
+Repositório Projeto: https://github.com/lauralucca/quero-trabalhar-na-enext.git
 
-![Merlins Potions Layout](assets/potions-layout.png)
+## Passos feitos no processo seletivo
 
-### Requisitos
 
-1. Crie um repositório no GitHub ou no Bitbucket
-1. Utilizando a estrutura de pastas que você escolher monte o layout anexo
-1. Utilize as fontes do Google Fonts (Droid Sans e Oswald)
-1. Com o uso de javascript puro, faça com que quando clicado em um produto, seja exibido um lightbox com mais informações sobre o mesmo, utilize o data layer para diferenciar os produtos e estas informações devem puxadas do arquivo json fornecido.
-1. Nos envie o seu repositório :smile:
+### 1º dia
 
-### Observações
+- criação do repositório no GitHub
 
-- Você pode utilizar um pre-processador se desejar.
-- Os arquivos estão na pasta **assets**
+- clone do projeto 
+	`git clone https://github.com/enextgroup/quero-trabalhar-na-enext.git`
+
+- criação da branch
+	`git checkout -b lauralucca`
+
+- criação do arquivo `potions.html`
+
+- contrução do `<head>` e do `header`
+
+- alteração do endereço de fetch e push
+	`git remote set-url origin https://github.com/lauralucca/quero-trabalhar-na-enext.git`
+
+- stage, commit e push do estado inicial do projeto
+	`git add .`
+	`git commit -m "início do Projeto"`
+	`git push origin lauralucca`
+
+
