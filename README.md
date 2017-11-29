@@ -32,4 +32,20 @@ Repositório Projeto: https://github.com/lauralucca/quero-trabalhar-na-enext.git
 	`git commit -m "início do Projeto"`
 	`git push origin lauralucca`
 
+- construção dos demais elementos do `<body>`
 
+- stage e commit do projeto ao terminar o HTML e iniciar o CSS
+	`git commit -m "finalizando arquivo html e criando arquivo de estilos"`
+
+
+### 2º dia
+
+- início da criação dos estilos da página, com foco no layout mobile
+
+- cores do projeto:
+	* Marrom: rgb(215, 58, 30)
+	* Roxo: rgb(82, 52, 104)
+	* Preto: rgb(0, 0, 0)
+	* Cinza escuro: rgb(102, 102, 102)
+	* Cinza claro: rgb(230, 230, 230)
+	* Branco: rgb(255, 255, 255)
