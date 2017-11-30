@@ -7,8 +7,9 @@ GitHub: https://github.com/lauralucca
 
 Repositório Projeto: https://github.com/lauralucca/quero-trabalhar-na-enext.git
 
-## Passos feitos no processo seletivo
 
+
+## Passos feitos no processo seletivo
 
 ### 1º dia
 
@@ -47,17 +48,16 @@ Repositório Projeto: https://github.com/lauralucca/quero-trabalhar-na-enext.git
 	git commit -m "finalizando arquivo html e criando arquivo de estilos"
 	```
 
-
 ### 2º dia
 
 - início da criação dos estilos da página, com foco no layout mobile
 
-  Cores do Projeto |  RGB
+  Cores do Projeto | RGB
   ------------ | -------------
   Marrom | rgb(215, 58, 30)
   Roxo | rgb(82, 52, 104)
   Preto | rgb(0, 0, 0)
-  Cinza escuro | escuro: rgb(102, 102, 102)
+  Cinza escuro | rgb(102, 102, 102)
   Cinza claro | rgb(230, 230, 230)
   Branco | rgb(255, 255, 255)
 
@@ -66,7 +66,7 @@ Repositório Projeto: https://github.com/lauralucca/quero-trabalhar-na-enext.git
  	git commit -m "criação dos estilos - atualização 1"
  	```
 
-### 2º dia
+### 3º dia
 
 - continuando a criar os estilos, finalização do layout mobile
 
