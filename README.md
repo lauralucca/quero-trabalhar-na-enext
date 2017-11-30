@@ -15,37 +15,62 @@ Repositório Projeto: https://github.com/lauralucca/quero-trabalhar-na-enext.git
 - criação do repositório no GitHub
 
 - clone do projeto 
-	`git clone https://github.com/enextgroup/quero-trabalhar-na-enext.git`
+	```
+	git clone https://github.com/enextgroup/quero-trabalhar-na-enext.git
+	```
 
 - criação da branch
-	`git checkout -b lauralucca`
+	```
+	git checkout -b lauralucca
+	```
 
 - criação do arquivo `potions.html`
 
 - contrução do `<head>` e do `header`
 
 - alteração do endereço de fetch e push
-	`git remote set-url origin https://github.com/lauralucca/quero-trabalhar-na-enext.git`
+	```
+	git remote set-url origin https://github.com/lauralucca/quero-trabalhar-na-enext.git
+	```
 
 - stage, commit e push do estado inicial do projeto
-	`git add .`
-	`git commit -m "início do Projeto"`
-	`git push origin lauralucca`
+	```
+	git add .
+	git commit -m "início do Projeto"
+	git push origin lauralucca
+	```
 
 - construção dos demais elementos do `<body>`
 
 - stage e commit do projeto ao terminar o HTML e iniciar o CSS
-	`git commit -m "finalizando arquivo html e criando arquivo de estilos"`
+	```
+	git commit -m "finalizando arquivo html e criando arquivo de estilos"
+	```
 
 
 ### 2º dia
 
 - início da criação dos estilos da página, com foco no layout mobile
 
-- cores do projeto:
-	* Marrom: rgb(215, 58, 30)
-	* Roxo: rgb(82, 52, 104)
-	* Preto: rgb(0, 0, 0)
-	* Cinza escuro: rgb(102, 102, 102)
-	* Cinza claro: rgb(230, 230, 230)
-	* Branco: rgb(255, 255, 255)
+  Cores do Projeto |  RGB
+  ------------ | -------------
+  Marrom | rgb(215, 58, 30)
+  Roxo | rgb(82, 52, 104)
+  Preto | rgb(0, 0, 0)
+  Cinza escuro | escuro: rgb(102, 102, 102)
+  Cinza claro | rgb(230, 230, 230)
+  Branco | rgb(255, 255, 255)
+
+- stage, commit e push do estado atual do projeto
+	```
+ 	git commit -m "criação dos estilos - atualização 1"
+ 	```
+
+### 2º dia
+
+- continuando a criar os estilos, finalização do layout mobile
+
+- stage, commit e push do estado atual do projeto
+	```
+ 	git commit -m "finalizando layout mobile - atualização 2 dos estilos"
+ 	```

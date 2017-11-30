@@ -1,0 +1,63 @@
+.newsletter-box {
+	background-color: rgb(255, 255, 255);
+	/*border-radius: .25em;*/
+	border-radius: 8px;
+	/*padding: .8em;*/
+	padding: 12px;
+	/*line-height: 2em;*/
+	line-height: 32px;
+}
+
+.subscription {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.newsletter-input {
+	/*padding: 0.5em;*/
+	padding: 6px;
+    /*margin: .5em 0;*/
+    margin: 6px 0;
+    /*width: 60%;*/
+    width: 176px;
+}
+
+.newsletter-btn {
+	background-color: rgb(215, 58, 30);
+	color: rgb(255, 255, 255);
+	/*padding: .5em 1.5em;*/
+	padding: 8px 24px;
+}
+
+.page-footer {
+	background-color: rgb(230, 230, 230);
+	padding: 1em;
+}
+
+.page-footer a {
+	display: none;
+	color: rgb(215, 58, 30);
+	text-transform: uppercase;
+}
+
+.social-media {
+	text-align: center;
+}
+
+.social-media li {
+	/*margin: 1.5em .5em;*/
+	margin: 24px 8px;
+	width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+
+    /*APAGAR AO COLOCAR O ICONE*/
+    background-color: green;
+}
+
+.copyright-warning {
+	text-align: center;
+	color: rgb(102, 102, 102);
+}

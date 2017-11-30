@@ -1,0 +1,16 @@
+.cart{
+	display: none;
+	text-align: center;
+}
+
+.cart-icon {
+	/*margin: 1em;*/
+	margin: 16px;
+	width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+
+    /*APAGAR AO COLOCAR O ICONE*/
+    background-color: green;
+}
