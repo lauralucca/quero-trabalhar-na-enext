@@ -44,3 +44,18 @@
 .brand-slogan:after {
 	margin-left: 4px;
 }
+
+@media (min-width: 768px) {
+	.brand-logo {
+	    display: inline-block;
+	    padding: 0;
+	    margin: 16px 24px;
+	}
+
+	input.search-input {
+		display: inline-block;
+    	vertical-align: top;
+    	padding: 10px 12px 10px 40px;
+    	margin: 20px 24px 0 24px;
+	}
+}

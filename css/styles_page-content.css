@@ -57,3 +57,20 @@
 		/*background-color: red;*/
 	}
 }
+
+@media (min-width: 768px) {
+	.category-name {
+		/*font-size: 150%;*/
+		font-size: 28px;
+		text-align: left;
+	}
+
+	.products-list li {
+		width: 33.33%;
+	}
+
+	.products-list img {
+		max-width: 240px;
+		max-height: 240px;
+	}
+}
