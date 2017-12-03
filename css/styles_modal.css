@@ -1,8 +1,8 @@
 .modal {
 	display: none;
 	position: fixed;
-	height: 100vh;
-	width: 100vw;
+	height: 100%;
+	width: 100%;
 	z-index: 1;
 	top: 0;
 }
@@ -107,6 +107,6 @@
 	.product-modal aside {
 		display: inline-block;
 		flex-basis: 40%;
-		overflow-y: scroll;
+		overflow-y: auto;
 	}
 }

@@ -1,5 +1,4 @@
 body {
-	/*tamanho mínimo pelo layout*/
 	min-width: 356px; 
 }
 
@@ -17,12 +16,10 @@ a {
 
 .btn {
 	border-style: none;
-    /*border-radius: 0.25em;*/
     border-radius: 4px;
 }
 
 .input{
-    /*border-radius: .25em;*/
     border-radius: 4px;
     border: 1px solid rgb(102, 102, 102);
 }
@@ -59,11 +56,18 @@ input::placeholder { /* Most modern browsers support this now. */
 	min-height: 80px;
 }
 
+
+/*APENAS MOBILE*/
+
 @media (max-width: 767px) {
+
 	.hidden {
 		display: none !important;
 	}
 }
+
+
+/*APENAS DESKTOP*/
 
 @media (min-width: 768px) {
 	.container {

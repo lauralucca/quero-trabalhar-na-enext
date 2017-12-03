@@ -1,201 +1,172 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<title>Potions - Merlin's Potions</title>
-	
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700">
-	<link rel="stylesheet" href="css/fonts/droidsans_regular_macroman/stylesheet.css">
-	<link rel="stylesheet" href="css/fonts/droidsans_bold_macroman/stylesheet.css">
-	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/styles_brand.css">
-	<link rel="stylesheet" href="css/styles_cart.css">
-	<link rel="stylesheet" href="css/styles_nav.css">
-	<link rel="stylesheet" href="css/styles_page-content.css">
-	<link rel="stylesheet" href="css/styles_footer.css">
-	<link rel="stylesheet" href="css/styles_modal.css">
-</head>
-<body>
-	<header class="container page-header">
-		<div class="menu-icon">
-			<i id="menu-icon" class="fa fa-2x fa-bars"></i>
-		</div>
-
-		<div class="brand-logo hide-with-menu">
-			<strong class="brand-name">Merlin's <span class="brand-name-secondary">Potions</span></strong>
-			<span class="brand-slogan">fine potions since 1026</span>
-		</div>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<div class="input-wrap show-with-menu">
-			<label for="stock-search"><i class="fa fa-search" aria-hidden="true"></i></label>
-			<input class="input search-input" type="search" name="stock-search" placeholder="Search our stock" />
-		</div>
-
-		<a class="cart hide-with-menu">
-			<i class="cart-icon fa fa-2x fa-shopping-bag"></i>
-			<div class="cart-status">
-				BAG:<span href="#">1</span>
+		<title>Potions - Merlin's Potions</title>
+		
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700">
+		<link rel="stylesheet" href="css/fonts/droidsans_regular_macroman/stylesheet.css">
+		<link rel="stylesheet" href="css/fonts/droidsans_bold_macroman/stylesheet.css">
+		<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/styles_brand.css">
+		<link rel="stylesheet" href="css/styles_cart.css">
+		<link rel="stylesheet" href="css/styles_nav.css">
+		<link rel="stylesheet" href="css/styles_page-content.css">
+		<link rel="stylesheet" href="css/styles_footer.css">
+		<link rel="stylesheet" href="css/styles_modal.css">
+	</head>
+	<body>
+		<header class="container page-header">
+			<div class="menu-icon">
+				<i id="menu-icon" class="fa fa-2x fa-bars"></i>
 			</div>
-		</a>
 
-		<div class="shipping-offer hide-with-menu">
-			<em>Free shipping <span>on orders over $50</span></em>
-		</div>
-	</header>
-	<nav id="categories-menu" class="categories-menu">
-		<section class="container">
-			<ul>
-				<li>
-					<a href="#">Potions <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-				</li><li>
-					<a href="#">Ingredients <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-				</li><li>
-					<a href="#">Books <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-				</li><li>
-					<a href="#">Supplies <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-				</li><li>
-					<a href="#">Charms <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-				</li>
-			</ul>
+			<div class="brand-logo hide-with-menu">
+				<strong class="brand-name">Merlin's <span class="brand-name-secondary">Potions</span></strong>
+				<span class="brand-slogan">fine potions since 1026</span>
+			</div>
 			
-			<a href="#"><button class="btn special-category-btn">Clearance!</button></a>
-			
-			<aside class="login">
-				<a href="#">Sign In</a> or <a href="#">Sign Up</a>
-			</aside>
+			<div class="input-wrap show-with-menu">
+				<label for="stock-search"><i class="fa fa-search" aria-hidden="true"></i></label>
+				<input class="input search-input" type="search" name="stock-search" placeholder="Search our stock" />
+			</div>
 
-		</section>
-	</nav>
-	<section class="container page-content hide-with-menu">
-		<h1 class="category-name">Potions</h1>
-		
-		<ul id="products-list" class="products-list"></ul>
-
-		<ul class="products-list">
-			<li>
-				<figure>
-					<img src="assets/products/aging-potion.png">
-					<figcaption><em>Aging Potion -</em> $29.99</figcaption>
-				</figure>
-			</li><li>
-				<figure>
-					<img src="assets/products/bulgeye-potion.png">
-					<figcaption><em>Bulgeye Potion -</em> $19.99</figcaption>
-				</figure>
-			</li><li>
-				<figure>
-					<img src="assets/products/dragon-tonic.png">
-					<figcaption><em>Dragon Tonic -</em> $64.99</figcaption>
-				</figure>
-			</li><li>
-				<figure>
-					<img src="assets/products/love-potion.png">
-					<figcaption><em>Love Potion -</em> $29.99</figcaption>
-				</figure>
-			</li><li>
-				<figure>
-					<img src="assets/products/polyjuice-potion.png">
-					<figcaption><em>Polyjuice Potion -</em> $99.99</figcaption>
-				</figure>
-			</li><li>
-				<figure>
-					<img src="assets/products/sleeping-draught.png">
-					<figcaption><em>Sleeping Draught -</em> $14.99</figcaption>
-				</figure>
-			</li>
-		</ul>
-	</section>
-	<footer class="page-footer hide-with-menu">
-		
-		<div class="container footer-container">
-
-			<aside class="newsletter-box">
-				<p><strong>Sign up for our Newsletter</strong></p>
-				<p>Sign up for our newsletter & get exclusive discounts!</p>
-				<div class="subscription">
-					<input class="input newsletter-input"type="email" name="newsletter" placeholder="Enter your email" />
-					<button class="btn newsletter-btn">SUBMIT</button>
+			<a class="cart hide-with-menu">
+				<i class="cart-icon fa fa-2x fa-shopping-bag"></i>
+				<div class="cart-status">
+					BAG:<span href="#">1</span>
 				</div>
-			</aside>
+			</a>
 
-			<div class="footer-content">
-				<ul class="footer-navigation">
+			<div class="shipping-offer hide-with-menu">
+				<em>Free shipping <span>on orders over $50</span></em>
+			</div>
+		</header>
+		<nav id="categories-menu" class="categories-menu-wrap">
+			<section class="container">
+				<ul class="categories-menu">
 					<li>
-						<a href="#">Company</a>
+						<a href="#">Potions<i class="fa fa-caret-down" aria-hidden="true"></i></a>
 					</li><li>
-						<a href="#">Contatc Us</a>
+						<a href="#">Ingredients<i class="fa fa-caret-down" aria-hidden="true"></i></a>
 					</li><li>
-						<a href="#">Shipping</a>
+						<a href="#">Books<i class="fa fa-caret-down" aria-hidden="true"></i></a>
 					</li><li>
-						<a href="#">Returns</a>
+						<a href="#">Supplies<i class="fa fa-caret-down" aria-hidden="true"></i></a>
 					</li><li>
-						<a href="#">Carrers</a>
+						<a href="#">Charms<i class="fa fa-caret-down" aria-hidden="true"></i></a>
 					</li>
 				</ul>
-				<ul class="social-media">
-					<li class="fa-stack">
-						<i class="fa social-media-background fa-stack-2x fa-circle"></i>
-						<i class="fa social-media-icon fa-stack-1x fa-facebook"></i>
-					</li><li class="fa-stack">
-						<i class="fa social-media-background fa-stack-2x fa-circle"></i>
-						<i class="fa social-media-icon fa-stack-1x fa-twitter"></i>
-					</li><li class="fa-stack">
-						<i class="fa social-media-background fa-stack-2x fa-circle"></i>
-						<i class="fa social-media-icon fa-stack-1x fa-pinterest-p"></i>
-					</li><li class="fa-stack">
-						<i class="fa social-media-background fa-stack-2x fa-circle"></i>
-						<i class="fa social-media-icon fa-stack-1x fa-tumblr"></i>
-					</li><li class="fa-stack">
-						<i class="fa social-media-background fa-stack-2x fa-circle"></i>
-						<i class="fa social-media-icon fa-stack-1x fa-google-plus"></i>
-					</li>
-				</ul>
-				<p class="copyright-warning">© 2015 Merlin's Potions. All Rights Reserved</p>
-			</div>
-		</div>
-	</footer>
-
-	<div id="modal" class="modal product-modal">
-		
-		<span class="modal-background"></span>
-
-		<div class="modal-wrap">
-			<div class="modal-content">
-				<i id="modal-close" class="fa fa-times modal-close"></i>
-				<figure>
-					<img src="assets/products/aging-potion.png">
-				</figure>
-				<aside>
-					<h2 class="products-name">Aging Potion</h2>
-					"potions": {
-					    "1": {
-					      "id": 1,
-					      "name": "Aging Potion",
-					      "image": "aging-potion.png",
-					      "price": 29.99,
-					      "effect": "Causes the drinker to advance in age",
-					      "ingredients": [
-					        "Red Wine",
-					        "Prune Juice",
-					        "Hairy Fungus",
-					        "Tortoise Shell",
-					        "Caterpillar",
-					        "Bat Tongue"
-
-					        
+				
+				<a href="#"><button class="btn special-category-btn">Clearance!</button></a>
+				
+				<aside class="login">
+					<a href="#">Sign In</a> or <a href="#">Sign Up</a>
 				</aside>
+
+			</section>
+		</nav>
+		
+		<section class="container page-content hide-with-menu">
+			<h1 class="category-name">Potions</h1>
+			<ul id="products-list" class="products-list"></ul>
+		</section>
+
+		<footer class="page-footer hide-with-menu">
+			
+			<div class="container footer-container">
+
+				<aside class="newsletter-box">
+					<p><strong>Sign up for our Newsletter</strong></p>
+
+					<p>Sign up for our newsletter & get exclusive discounts!</p>
+
+					<div class="subscription">
+						<input class="input newsletter-input"type="email" name="newsletter" placeholder="Enter your email" />
+					
+						<button class="btn newsletter-btn">SUBMIT</button>
+					</div>
+				</aside>
+
+				<div class="footer-content">
+					<ul class="footer-navigation">
+						<li>
+							<a href="#">Company</a>
+						</li><li>
+							<a href="#">Contatc Us</a>
+						</li><li>
+							<a href="#">Shipping</a>
+						</li><li>
+							<a href="#">Returns</a>
+						</li><li>
+							<a href="#">Carrers</a>
+						</li>
+					</ul>
+
+					<ul class="social-media">
+						<li class="fa-stack">
+							<i class="fa social-media-background fa-stack-2x fa-circle"></i>
+							<i class="fa social-media-icon fa-stack-1x fa-facebook"></i>
+						</li><li class="fa-stack">
+							<i class="fa social-media-background fa-stack-2x fa-circle"></i>
+							<i class="fa social-media-icon fa-stack-1x fa-twitter"></i>
+						</li><li class="fa-stack">
+							<i class="fa social-media-background fa-stack-2x fa-circle"></i>
+							<i class="fa social-media-icon fa-stack-1x fa-pinterest-p"></i>
+						</li><li class="fa-stack">
+							<i class="fa social-media-background fa-stack-2x fa-circle"></i>
+							<i class="fa social-media-icon fa-stack-1x fa-tumblr"></i>
+						</li><li class="fa-stack">
+							<i class="fa social-media-background fa-stack-2x fa-circle"></i>
+							<i class="fa social-media-icon fa-stack-1x fa-google-plus"></i>
+						</li>
+					</ul>
+
+					<p class="copyright-warning">© 2015 Merlin's Potions. All Rights Reserved</p>
+				</div>
+			</div>
+		</footer>
+
+		<div id="modal" class="modal product-modal">
+			
+			<span class="modal-background"></span>
+
+			<div class="modal-wrap">
+				<div id="modal-content" class="modal-content">
+					<i id="modal-close" class="fa fa-times modal-close"></i>
+					
+					<figure>
+						<img src="assets/products/aging-potion.png">
+					</figure>
+					<aside>
+						<h2 class="products-name">Aging Potion</h2>
+						"potions": {
+						    "1": {
+						      "id": 1,
+						      "name": "Aging Potion",
+						      "image": "aging-potion.png",
+						      "price": 29.99,
+						      "effect": "Causes the drinker to advance in age",
+						      "ingredients": [
+						        "Red Wine",
+						        "Prune Juice",
+						        "Hairy Fungus",
+						        "Tortoise Shell",
+						        "Caterpillar",
+						        "Bat Tongue"
+					</aside>
+				</div>
 			</div>
 		</div>
-	</div>
 
-	<script src="js/dirty-potions.js"></script>
-	<script src="js/menu-mobile.js"></script>
-	<script src="js/modal.js"></script>
-	<script src="js/products-list.js"></script>
+		<script src="js/dirty-potions.js"></script>
+		<script src="js/menu-mobile.js"></script>
+		<script src="js/modal.js"></script>
+		<script src="js/products-list.js"></script>
 
-</body>
+	</body>
 </html>

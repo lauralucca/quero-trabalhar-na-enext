@@ -2,7 +2,6 @@
     font-family: 'droid_sansregular';
     src: url('DroidSans-webfont.eot');
     src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
-         url('DroidSans-webfont.woff2') format('woff2'),
          url('DroidSans-webfont.woff') format('woff'),
          url('DroidSans-webfont.ttf') format('truetype'),
          url('DroidSans-webfont.svg#droid_sansregular') format('svg');

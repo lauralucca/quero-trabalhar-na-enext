@@ -57,6 +57,7 @@
 /*APENAS MOBILE*/
 
 @media (max-width: 767px) {
+	
 	.page-footer a {
 		display: none;
 	}

@@ -46,7 +46,11 @@
 	font-weight: 600;
 }
 
+
+/*APENAS MOBILE*/
+
 @media (max-width: 767px) {
+
 	.products-list li {
 		width: 50%;
 	}
@@ -60,7 +64,11 @@
 	}
 }
 
+
+/*APENAS DESKTOP*/
+
 @media (min-width: 768px) {
+
 	.category-name {
 		font-size: 28px;
 		text-align: left;

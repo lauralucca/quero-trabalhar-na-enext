@@ -121,3 +121,17 @@ Repositório Projeto: https://github.com/lauralucca/quero-trabalhar-na-enext.git
   Oswald | Oswald | 'Oswald', sans-serif;
 
 - Finalização dos ajustes de estilos e conferência de todo o projeto
+
+- stage, commit e push do estado atual do projeto
+	```
+ 	git commit -m "revisão final dos estilos"
+ 	```
+
+- Padronização dos arquivos de estilos
+
+- Inserção dinâmica usando javascript dos itens da lista de produtos e remoção dos itens estáticos
+
+- stage, commit e push do estado atual do projeto
+	```
+ 	git commit -m "adição do javascript de inserção dos produtos dinamicamente"
+ 	```
