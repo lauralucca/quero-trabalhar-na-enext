@@ -74,3 +74,23 @@ Repositório Projeto: https://github.com/lauralucca/quero-trabalhar-na-enext.git
 	```
  	git commit -m "finalizando layout mobile - atualização 2 dos estilos"
  	```
+
+### 4º dia
+
+- continuando a criar os estilos, criação do layout desktop
+
+- stage, commit e push do estado atual do projeto
+	```
+ 	git commit -m "criação do layout desktop - atualização 3 dos estilos"
+ 	```
+
+### 5º dia
+
+- importação da biblioteca font awesome 4.7.0 e colocação dos ícones na página
+
+- criação do menu mobile, com o arquivo menu-mobile.js
+
+- stage, commit e push do estado atual do projeto
+	```
+ 	git commit -m "criação do menu mobile e ícones"
+ 	```

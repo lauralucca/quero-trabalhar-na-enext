@@ -3,7 +3,7 @@
 	position: absolute;
 	right: 0;
 	top: 0;
-	color: rgb(102, 102, 102);
+	color: rgba(0, 0, 0, .5);
 }
 
 .cart span {
@@ -12,14 +12,9 @@
 }
 
 .cart-icon {
-	/*margin: 1em;*/
-	width: 20px;
-    height: 20px;
-    display: inline-block;
-    text-indent: -9999px;
-
-    /*APAGAR AO COLOCAR O ICONE*/
-    background-color: green;
+	color: rgb(82, 52, 104);
+    padding: 8px 16px;
+    text-align: center;
 }
 
 .shipping-offer{
@@ -37,9 +32,13 @@
 	}
 
 	.cart-icon {
-		/*display: 		*/
+		float: left;
 	}
-	
+
+	.cart-status {
+		float: right;
+	}
+		
 	.shipping-offer {
 		color:  rgb(215, 58, 30);
 		background-color: transparent;

@@ -6,34 +6,43 @@
 	
 	<title>Potions - Merlin's Potions</title>
 	
-	<link href="css/reset.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
-	<link href="css/styles_brand.css" rel="stylesheet">
-	<link href="css/styles_cart.css" rel="stylesheet">
-	<link href="css/styles_nav.css" rel="stylesheet">
-	<link href="css/styles_page-content.css" rel="stylesheet">
-	<link href="css/styles_footer.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700">
+	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styles_brand.css">
+	<link rel="stylesheet" href="css/styles_cart.css">
+	<link rel="stylesheet" href="css/styles_nav.css">
+	<link rel="stylesheet" href="css/styles_page-content.css">
+	<link rel="stylesheet" href="css/styles_footer.css">
 </head>
 <body>
 	<header class="container page-header">
-		<div class="brand-logo">
+		<div class="menu-icon">
+			<i id="menu-icon" class="fa fa-2x fa-bars"></i>
+		</div>
+		<div class="brand-logo hide-with-menu">
 			<strong class="brand-name">Merlin's <span class="brand-name-secondary">Potions</span></strong>
 			<span class="brand-slogan">fine potions since 1026</span>
 		</div>
 		
-		<input class="input search-input" type="search" name="stock-search" placeholder="Search our stock" />
-		
-		<div class="cart">
-			<div class="cart-icon">icon-cauldron</div>
-			<div>BAG:<span>1</span></div>
+		<div class="input-wrap show-with-menu">
+			<label for="stock-search"><i class="fa fa-search" aria-hidden="true"></i></label>
+			<input class="input search-input" type="search" name="stock-search" placeholder="Search our stock" />
 		</div>
 
-		<div class="shipping-offer">
+		<a class="cart hide-with-menu">
+			<i class="cart-icon fa fa-2x fa-shopping-bag"></i>
+			<div class="cart-status">
+				BAG:<span href="#">1</span>
+			</div>
+		</a>
+
+		<div class="shipping-offer hide-with-menu">
 			<em>Free shipping <span>on orders over $50</span></em>
 		</div>
 	</header>
-	<nav class="categories-menu">
+	<nav id="categories-menu" class="categories-menu">
 		<section class="container">
 			<ul>
 				<li>
@@ -56,7 +65,7 @@
 			</aside>
 		</section>
 	</nav>
-	<section class="container page-content">
+	<section class="container page-content hide-with-menu">
 		<h1 class="category-name">Potions</h1>
 		<ul class="products-list">
 			<li>
@@ -92,7 +101,7 @@
 			</li>
 		</ul>
 	</section>
-	<footer class="page-footer">
+	<footer class="page-footer hide-with-menu">
 		<aside class="newsletter-box">
 			<p><strong>Sign up for our Newsletter</strong></p>
 			<p>Sign up for our newsletter & get exclusive discounts!</p>
@@ -115,13 +124,27 @@
 			</li>
 		</ul>
 		<ul class="social-media">
-			<li>icon-facebook</li>
-			<li>icon-twitter</li>
-			<li>icon-pinterest</li>
-			<li>icon-tumblr</li>
-			<li>icon-gplus</li>
+			<li class="fa-stack">
+				<i class="fa social-media-background fa-stack-2x fa-circle"></i>
+				<i class="fa social-media-icon fa-stack-1x fa-facebook"></i>
+			</li><li class="fa-stack">
+				<i class="fa social-media-background fa-stack-2x fa-circle"></i>
+				<i class="fa social-media-icon fa-stack-1x fa-twitter"></i>
+			</li><li class="fa-stack">
+				<i class="fa social-media-background fa-stack-2x fa-circle"></i>
+				<i class="fa social-media-icon fa-stack-1x fa-pinterest-p"></i>
+			</li><li class="fa-stack">
+				<i class="fa social-media-background fa-stack-2x fa-circle"></i>
+				<i class="fa social-media-icon fa-stack-1x fa-tumblr"></i>
+			</li><li class="fa-stack">
+				<i class="fa social-media-background fa-stack-2x fa-circle"></i>
+				<i class="fa social-media-icon fa-stack-1x fa-google-plus"></i>
+			</li>
 		</ul>
 		<p class="copyright-warning">© 2005 Merlin's Potions. All Rights Reserved</p>
 	</footer>
+
+	<script src="js/menu-mobile.js"></script>
+
 </body>
 </html>
