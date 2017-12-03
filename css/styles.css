@@ -1,3 +1,16 @@
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?iefix') format('eot'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+
+.qualquercoisa {
+	font-family: 'MyWebFont', Arial, sans-serif;
+}
+
 body {
 	/*tamanho mínimo pelo layout*/
 	min-width: 356px; 
@@ -5,6 +18,7 @@ body {
 
 .container {
 	display: block;
+	box-sizing: border-box;
 	position: relative;
 	margin: 0 auto;
 	max-width: 1024px;
@@ -22,12 +36,46 @@ body {
     border: 1px solid rgb(102, 102, 102);
 }
 
+input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+   color: rgba(0, 0, 0, .4);
+}
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: rgba(0, 0, 0, .4);
+   opacity: 1;
+}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: rgba(0, 0, 0, .4);
+   opacity: 1;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: rgba(0, 0, 0, .4);
+}
+
+input::-ms-input-placeholder { /* Microsoft Edge */
+   color: rgba(0, 0, 0, .4);
+}
+
+input::placeholder { /* Most modern browsers support this now. */
+   color: rgba(0, 0, 0, .4);
+}
+
 .page-header {
 	position: relative;
 	margin-top: 8px;
 	min-height: 80px;
 }
 
-.hidden {
-	display: none !important;
+@media (max-width: 767px) {
+	.hidden {
+		display: none !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		padding: 0 36px;
+	}
 }

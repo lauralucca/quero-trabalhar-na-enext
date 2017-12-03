@@ -88,9 +88,20 @@ Repositório Projeto: https://github.com/lauralucca/quero-trabalhar-na-enext.git
 
 - importação da biblioteca font awesome 4.7.0 e colocação dos ícones na página
 
-- criação do menu mobile, com o arquivo menu-mobile.js
+- criação do menu mobile, com o arquivo `menu-mobile.js`
 
 - stage, commit e push do estado atual do projeto
 	```
  	git commit -m "criação do menu mobile e ícones"
  	```
+
+- importação da fonte Droid Sans, construção dos estilos do footer da página desktop
+
+- organização dos estilos mobile/desktop
+
+- stage, commit e push do estado atual do projeto
+	```
+ 	git commit -m "construção do footer desktop - atualização 4 dos estilos"
+ 	```
+
+

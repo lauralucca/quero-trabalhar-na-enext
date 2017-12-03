@@ -50,11 +50,4 @@
 	    padding: 0;
 	    margin: 16px 24px;
 	}
-
-	input.search-input {
-		display: inline-block;
-    	vertical-align: top;
-    	padding: 10px 12px 10px 40px;
-    	margin: 20px 24px 0 24px;
-	}
 }

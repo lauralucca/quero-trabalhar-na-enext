@@ -1,10 +1,7 @@
 .newsletter-box {
 	background-color: rgb(255, 255, 255);
-	/*border-radius: .25em;*/
 	border-radius: 8px;
-	/*padding: .8em;*/
 	padding: 12px;
-	/*line-height: 2em;*/
 	line-height: 32px;
 }
 
@@ -15,18 +12,14 @@
 }
 
 .newsletter-input {
-	/*padding: 0.5em;*/
 	padding: 6px;
-    /*margin: .5em 0;*/
     margin: 6px 0;
-    /*width: 60%;*/
     width: 176px;
 }
 
 .newsletter-btn {
 	background-color: rgb(215, 58, 30);
 	color: rgb(255, 255, 255);
-	/*padding: .5em 1.5em;*/
 	padding: 8px 24px;
 }
 
@@ -35,18 +28,11 @@
 	padding: 1em;
 }
 
-.page-footer a {
-	display: none;
-	color: rgb(215, 58, 30);
-	text-transform: uppercase;
-}
-
 .social-media {
 	text-align: center;
 }
 
 .social-media li {
-	/*margin: 1.5em .5em;*/
 	margin: 36px 12px;
 }
 
@@ -62,4 +48,48 @@
 .copyright-warning {
 	text-align: center;
 	color: rgb(102, 102, 102);
+}
+
+
+/*APENAS MOBILE*/
+
+@media (max-width: 767px) {
+	.page-footer a {
+		display: none;
+	}
+}
+
+
+/*APENAS DESKTOP*/
+
+@media (min-width: 768px) {
+	
+	.footer-container {
+		padding-top: 16px;
+		padding-bottom: 16px;
+	}
+
+	.footer-content {
+		margin: 16px 0;
+		display: inline-block;
+		position: relative;
+		width: 50%;
+	}
+
+	.footer-navigation a {
+		color: rgb(215, 58, 30);
+		text-transform: uppercase;
+		font-size: 24px;
+		font-family: 'MyWebFont', Arial, sans-serif;
+	}
+
+	.footer-navigation li {
+		display: inline-block;
+		margin: 0 8px;		
+	}
+
+	.newsletter-box {
+		float: right;
+    	width: 40%;
+	}
 }

@@ -31,23 +31,30 @@
   display: block;
 }
 
+.input-wrap {
+  position: relative;
+}
+
+.input-wrap label {
+  position: absolute;
+  color: rgb(215, 58, 30);
+  top: 8px;
+  left: 12px;
+}
+
+.search-input {
+  padding: 8px 8px 8px 36px;
+  width: 100%;
+}
+
+
+/*APENAS MOBILE*/
+
 @media (max-width: 767px) {
+
   .input-wrap {
-    position: relative;
     margin: 0px 24px 0 64px;
     top: 20px;
-  }
-
- .input-wrap label {
-    position: absolute;
-    color: rgb(215, 58, 30);
-    top: 8px;
-    left: 12px;
-  }
-
-  .search-input {
-    width: 100%;
-    padding: 8px 8px 8px 36px;
   }
 
   .login {
@@ -76,7 +83,23 @@
 
 }
 
+
+/*APENAS DESKTOP*/
+
 @media (min-width: 768px) {
+
+  .input-wrap {
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    margin: 20px 24px 0 24px;
+  }
+
+  input.search-input {
+    display: inline-block;
+    vertical-align: top;
+  }
+
   .menu-icon {
     display: none;
   }
