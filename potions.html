@@ -15,12 +15,14 @@
 	<link rel="stylesheet" href="css/styles_nav.css">
 	<link rel="stylesheet" href="css/styles_page-content.css">
 	<link rel="stylesheet" href="css/styles_footer.css">
+	<link rel="stylesheet" href="css/styles_modal.css">
 </head>
 <body>
 	<header class="container page-header">
 		<div class="menu-icon">
 			<i id="menu-icon" class="fa fa-2x fa-bars"></i>
 		</div>
+
 		<div class="brand-logo hide-with-menu">
 			<strong class="brand-name">Merlin's <span class="brand-name-secondary">Potions</span></strong>
 			<span class="brand-slogan">fine potions since 1026</span>
@@ -63,10 +65,14 @@
 			<aside class="login">
 				<a href="#">Sign In</a> or <a href="#">Sign Up</a>
 			</aside>
+
 		</section>
 	</nav>
 	<section class="container page-content hide-with-menu">
 		<h1 class="category-name">Potions</h1>
+		
+		<ul id="products-list" class="products-list"></ul>
+
 		<ul class="products-list">
 			<li>
 				<figure>
@@ -151,7 +157,69 @@
 		</div>
 	</footer>
 
+	<div id="modal" class="modal product-modal">
+		
+		<span class="modal-background"></span>
+
+		<div class="modal-wrap">
+			<div class="modal-content">
+				<i id="modal-close" class="fa fa-times modal-close"></i>
+				<figure>
+					<img src="assets/products/aging-potion.png">
+				</figure>
+				<aside>
+					<p>blá blá blá</p>
+					<br />
+					<br />
+					<p>blá blá</p>
+					<br />
+					<p>blá blá</p>
+					<br />
+					<p>blá blá blá blá blá blá blá</p>
+					<p>blá blá</p>
+					<br />
+					<p>blá blá</p>
+					<p>blá blá</p>
+					<br />
+					<p>blá blá blá blá</p>
+					<p>blá blá</p>
+					<p>blá blá</p>
+					<p>blá blá blá blá blá blá</p>
+					<br />
+					<br />
+					<p>blá blá</p>
+					<p>blá blá</p>
+
+					<p>blá blá blá</p>
+					<br />
+					<br />
+					<p>blá blá</p>
+					<br />
+					<p>blá blá</p>
+					<br />
+					<p>blá blá blá blá blá blá blá blá blá blá blá blá blá blá blá blá blá blá blá blá blá</p>
+					<p>blá blá</p>
+					<br />
+					<p>blá blá</p>
+					<p>blá blá</p>
+					<br />
+					<p>blá blá blá blá</p>
+					<p>blá blá</p>
+					<p>blá blá</p>
+					<p>blá blá blá blá blá blá</p>
+					<br />
+					<br />
+					<p>blá blá</p>
+					<p>blá blá</p>
+				</aside>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/dirty-potions.js"></script>
 	<script src="js/menu-mobile.js"></script>
+	<script src="js/modal.js"></script>
+	<script src="js/products-list.js"></script>
 
 </body>
 </html>

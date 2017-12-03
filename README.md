@@ -104,4 +104,11 @@ Repositório Projeto: https://github.com/lauralucca/quero-trabalhar-na-enext.git
  	git commit -m "construção do footer desktop - atualização 4 dos estilos"
  	```
 
+- início da criação da base em html e estilos do lightbox
+
+- stage, commit e push do estado atual do projeto
+	```
+ 	git commit -m "início da construção do lightbox"
+ 	```
+
 

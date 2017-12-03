@@ -1,0 +1,112 @@
+.modal {
+	display: none;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	z-index: 1;
+	top: 0;
+}
+
+.modal.modal-opened {
+	display: block;
+}
+
+.modal-close {
+	position: absolute;
+	top: 0;
+	right: 4px;
+	font-size: 24px;
+	padding: 4px;
+	cursor: pointer;
+}
+
+.modal-background {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.modal-wrap {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.modal-background {
+	background-color: rgba(0, 0, 0, .8);
+}
+
+.modal-content {
+	background-color: rgb(255, 255, 255);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+    width: 72%;
+	height: 72%;
+    max-width: 640px;
+}
+
+.product-modal figure {
+	text-align: center;
+}
+
+.product-modal figure img {
+	width: 100%;
+	max-width: 320px;
+	margin: 16px auto;
+}
+
+.product-modal aside {
+	margin: 0;
+    padding: 0;
+}
+
+
+/*APENAS MOBILE*/
+
+@media (max-width: 767px) {
+
+	.modal-content {
+		display: block;
+	    padding: 24px;
+	    max-height: 400px;
+	    overflow-y: scroll;
+	}
+
+	.product-modal figure {
+		display: block;
+	}
+
+	.product-modal aside {
+		display: block;
+	}
+}
+
+
+/*APENAS DESKTOP*/
+
+@media (min-width: 768px) {
+
+	.modal-content {
+		display: flex;
+	    flex-wrap: nowrap;
+	    padding: 36px 36px 36px 0;
+	}
+
+	.product-modal figure {
+		display: inline-block;
+		flex-basis: 60%;
+	}
+
+	.product-modal aside {
+		display: inline-block;
+		flex-basis: 40%;
+		overflow-y: scroll;
+	}
+}

@@ -17,9 +17,14 @@
 	max-width: 50%;
 	display: inline-block;
 	text-align: center;
-	padding: 4px;
+	padding: 16px;
 	box-sizing: border-box;
-	margin: 16px 0;
+	margin: 8px 0;
+	cursor: pointer;
+}
+
+.products-list li:hover {
+	background-color: rgb(230, 230, 230);
 }
 
 .products-list figure,
@@ -29,7 +34,7 @@
 
 .products-list img {
 	display: block;
-	margin: 0 auto;
+	margin: 8px auto;
 }
 
 .products-list figcaption {
