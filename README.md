@@ -56,6 +56,7 @@ Repositório Projeto: https://github.com/lauralucca/quero-trabalhar-na-enext.git
   ------------ | -------------
   Marrom | rgb(215, 58, 30)
   Roxo | rgb(82, 52, 104)
+  Roxo escuro | rgb(66, 42, 83)
   Preto | rgb(0, 0, 0)
   Cinza escuro | rgb(102, 102, 102)
   Cinza claro | rgb(230, 230, 230)
@@ -111,4 +112,12 @@ Repositório Projeto: https://github.com/lauralucca/quero-trabalhar-na-enext.git
  	git commit -m "início da construção do lightbox"
  	```
 
+- Aplicação das fontes
 
+  Fontes do Projeto | font-family | Estilo
+  ------------ | ------------- | ----------
+  Droid Sans | droid_sansregular | 'droid_sansregular', Arial, sans-serif;
+  Droid Sans Bold | droid_sansbold | 'droid_sansbold', Arial, sans-serif;
+  Oswald | Oswald | 'Oswald', sans-serif;
+
+- Finalização dos ajustes de estilos e conferência de todo o projeto

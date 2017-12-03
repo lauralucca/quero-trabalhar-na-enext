@@ -38,8 +38,7 @@
 }
 
 .products-list figcaption {
-	white-space: nowrap; 
-	font-size: 12px;
+	white-space: nowrap;
 }
 
 .products-list figcaption em {
@@ -54,6 +53,10 @@
 
 	.products-list img {
 		max-width: 152px;
+	}
+
+	.products-list figcaption {
+		font-size: 12px;
 	}
 }
 
@@ -70,5 +73,9 @@
 	.products-list img {
 		max-width: 240px;
 		max-height: 240px;
+	}
+
+	.products-list figcaption {
+		font-size: 16px;
 	}
 }

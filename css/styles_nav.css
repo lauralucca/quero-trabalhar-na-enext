@@ -24,11 +24,13 @@
 .categories-menu a {
 	color: rgb(255, 255, 255);
 	font-style: italic;
-	font-weight: bold;
 }
 
 .special-category-btn {
   display: block;
+  color: rgb(255, 255, 255);
+  background-color: rgb(66, 42, 83);
+  font-style: italic;
 }
 
 .input-wrap {
@@ -64,21 +66,21 @@
   }
 
   .special-category-btn {
-    color: rgb(255, 255, 255);
-    background-color: rgb(66, 42, 83);
     width: 100%;
     box-sizing: border-box;
     border-radius: 0;
     padding: 16px 48px;
     text-align: left;
-    font-style: italic;
-    font-weight: bold;
   }
 
   .categories-menu li {
     box-sizing: border-box;
     padding: 16px 48px;
     border-top: 1px solid rgba(255,255,255,.25);
+  }
+
+  .categories-menu i {
+    display: none;
   }
 
 }
@@ -91,7 +93,6 @@
   .input-wrap {
     display: inline-block;
     vertical-align: top;
-    /*width: 280px;*/
     margin: 20px 24px 0 0;
     width: 25%;
   }
@@ -126,7 +127,10 @@
 
   .special-category-btn {
     display: inline-block;
+    border-radius: 4px;
+    padding: 12px 8px; 
   }
+  
   .login {
     float: right;
     margin-right: 24px;
