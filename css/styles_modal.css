@@ -47,8 +47,6 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 3;
-    width: 72%;
-	height: 72%;
     max-width: 640px;
 }
 
@@ -58,7 +56,6 @@
 
 .product-modal figure img {
 	width: 100%;
-	max-width: 320px;
 	margin: 16px auto;
 }
 
@@ -76,14 +73,15 @@
     display: block;
 }
 
-.product-modal p {
+.product-modal p,
+.product-modal ul {
 	font-size: 16px;
 	line-height: 20px;
 	margin: 12px 0;
 }
 
-.product-modal ul {
-
+.product-modal ul li {
+	line-height: 20px;
 }
 
 .product-modal p.price-value {
@@ -92,7 +90,6 @@
     line-height: 28px;
     font-size: 24px;
     margin: 0 0 14px 0;
-
 }
 
 .cart-btn {
@@ -110,12 +107,17 @@
 	.modal-box {
 		display: block;
 	    padding: 24px;
-	    max-height: 400px;
 	    overflow-y: scroll;
+	    width: 78%;
+		height: 88%;
 	}
 
 	.product-modal figure {
 		display: block;
+	}
+
+	.product-modal figure img {
+		max-width: 240px;
 	}
 
 	.product-modal aside {
@@ -128,15 +130,26 @@
 
 @media (min-width: 768px) {
 
+	.modal-box {
+	    width: 72%;
+		height: 72%;
+	}
+
 	.modal-content {
 		display: flex;
 	    flex-wrap: nowrap;
 	    padding: 36px 36px 36px 0;
+	    height: 100%;
+    	box-sizing: border-box;
 	}
 
 	.product-modal figure {
 		display: inline-block;
 		flex-basis: 60%;
+	}
+
+	.product-modal figure img {
+		max-width: 320px;
 	}
 
 	.product-modal aside {

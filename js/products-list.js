@@ -8,16 +8,19 @@
 		let potion = dirtyPotions[i];
 
 		let item = document.createElement('li');
+
 		let figure = document.createElement('figure');
+
 		let image = document.createElement('img');
-		let caption = document.createElement('figcaption');
-		let name = document.createElement('em');
-		let price = document.createElement('span');
-
 		image.src = 'assets/products/' + potion.image;
-		name.innerHTML = potion.name + " -";
-		price.innerHTML = " $" + potion.price;
 
+		let caption = document.createElement('figcaption');
+
+		let name = document.createElement('em');
+		name.innerHTML = potion.name + " -";
+
+		let price = document.createElement('span');
+		price.innerHTML = " $" + potion.price;
 
 		caption.appendChild(name);
 		caption.appendChild(price);
@@ -28,7 +31,6 @@
 
 		item.addEventListener('click', function() {
 			buildModalContent(potion);
-
 			openModal();
 		});
 	}

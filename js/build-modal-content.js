@@ -16,25 +16,27 @@ function buildModalContent(potion) {
 	productEffect.innerHTML = potion.effect;
 
 	let ingredientsTitle = document.createElement('h3');
-	ingredientsTitle.innerHTML = "Ingredients:"
+	ingredientsTitle.innerHTML = "Ingredients:";
 
 	let productIngredientsList = document.createElement('ul');
-	// productIngredientsList
-	// for (let i = 0; i < ingredients.length; i++) {
-	// 	let ingredient = ingredients[i];
-	// }
+	for (let i = 0; i < potion.ingredients.length; i++) {
+		let ingredient = potion.ingredients[i];
+		let ingredientItem = document.createElement('li');
+		ingredientItem.innerHTML = ingredient;
+		productIngredientsList.appendChild(ingredientItem);
+	}
 
 	let priceTitle = document.createElement('h3');
-	priceTitle.innerHTML = "Price:"
+	priceTitle.innerHTML = "Price:";
 
 	let productPrice = document.createElement('p');
 	productPrice.innerHTML = "$ " + potion.price;
-	productPrice.classList.add('price-value')
+	productPrice.classList.add('price-value');
 
 	let cartBtn = document.createElement('button');
-	cartBtn.classList.add('btn')
-	cartBtn.classList.add('cart-btn')
-	cartBtn.innerHTML = "add to cart"
+	cartBtn.classList.add('btn');
+	cartBtn.classList.add('cart-btn');
+	cartBtn.innerHTML = "add to cart";
 
 	figure.appendChild(image);
 	description.appendChild(productName);
