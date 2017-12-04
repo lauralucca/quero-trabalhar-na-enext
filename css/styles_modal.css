@@ -40,7 +40,7 @@
 	background-color: rgba(0, 0, 0, .8);
 }
 
-.modal-content {
+.modal-box {
 	background-color: rgb(255, 255, 255);
 	position: absolute;
 	top: 50%;
@@ -67,12 +67,47 @@
     padding: 0;
 }
 
+.product-modal h2,
+.product-modal h3 {
+	font-size: 22px;
+    font-weight: bold;
+    line-height: 32px;
+    margin: 20px 0 0 0;
+    display: block;
+}
+
+.product-modal p {
+	font-size: 16px;
+	line-height: 20px;
+	margin: 12px 0;
+}
+
+.product-modal ul {
+
+}
+
+.product-modal p.price-value {
+	color: rgb(215, 58, 30);
+	font-weight: bold;
+    line-height: 28px;
+    font-size: 24px;
+    margin: 0 0 14px 0;
+
+}
+
+.cart-btn {
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	background-color: rgb(215, 58, 30);
+	padding: 12px 18px;
+    font-size: 16px;
+}
 
 /*APENAS MOBILE*/
 
 @media (max-width: 767px) {
 
-	.modal-content {
+	.modal-box {
 		display: block;
 	    padding: 24px;
 	    max-height: 400px;

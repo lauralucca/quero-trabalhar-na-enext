@@ -135,3 +135,10 @@ Repositório Projeto: https://github.com/lauralucca/quero-trabalhar-na-enext.git
 	```
  	git commit -m "adição do javascript de inserção dos produtos dinamicamente"
  	```
+
+- Inserção dinâmica de dados no modal
+
+- stage, commit e push do estado atual do projeto
+	```
+ 	git commit -m "adição do javascript de inserção dos dados do modal dinamicamente"
+ 	```

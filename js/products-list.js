@@ -18,6 +18,7 @@
 		name.innerHTML = potion.name + " -";
 		price.innerHTML = " $" + potion.price;
 
+
 		caption.appendChild(name);
 		caption.appendChild(price);
 		figure.appendChild(image);
@@ -26,7 +27,9 @@
 		products.appendChild(item);
 
 		item.addEventListener('click', function() {
-			openModal(potion);
+			buildModalContent(potion);
+
+			openModal();
 		});
 	}
 
